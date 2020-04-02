@@ -2,7 +2,7 @@
 
 ## Componente Back-End del portal AIK
 
-###Equipo de trabajo:
+### Equipo de trabajo:
 
 Jorge Moreno - @Jorge-Andres-Moreno
 
