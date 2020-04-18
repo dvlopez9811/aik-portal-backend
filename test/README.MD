@@ -1,6 +1,6 @@
 # aik-portal-backend
 
-Diseño de pruebas de integración backend-database:
+Diseño de pruebas de componente backend-database:
 
 ### Caso de prueba # 1
 | Nombre | Descripción |
