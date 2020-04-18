@@ -1,6 +1,6 @@
 # aik-portal-backend
 
-Diseño de pruebas unitarias backend:
+Diseño de pruebas de integración backend-database:
 
 ### Caso de prueba # 1
 | Nombre | Descripción |
@@ -66,3 +66,19 @@ Diseño de pruebas unitarias backend:
 | Objetivo de la prueba | Probar que el endpoint retorna la información del módulo experiencia en su componente redsocial |
 | Entradas | Request a '/redsocial' |
 | Salidas | {</br>vehicles :[</br> 1:{ </br>nombre: string,</br>imagen: string,</br>enlace: string</br>},</br></br>N:{</br>nombre: string,</br>imagen: string,</br>enlace: string</br>}</br>]</br>} |
+
+## Dependencias necesarias para la ejecución de las pruebas
+
+1. Inicialmente debe instalarse las dependencias de desarrollo *mocha*, *chai*
+
+Esto puede hacerse mediante:
+
+`npm install --save-dev mocha chai`
+
+2. También la dependencia *http-status-code*
+
+`npm install --save-dev http-status-codes`
+
+3. Por último, las dependencias *superagent* y *superagent-promise*, estas no son de desarrollo, son parte de una librería cliente.
+
+`npm install --save superagent superagent-promise`
