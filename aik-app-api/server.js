@@ -4,9 +4,8 @@ var app = express();
 var mysql = require("mysql");
 
 const con = mysql.createConnection({
-  //host: '192.168.130.194',
-  //host: '172.30.183.221',
-  host: 'localhost',
+
+  host: process.env.ENDPOINT,
   user: 'root',
   password: 'password',
   database: 'dbAIK',
